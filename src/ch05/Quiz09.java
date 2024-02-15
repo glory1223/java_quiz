@@ -21,5 +21,17 @@ int totalStudent = 0;
         double totalAvg = (double) totalSum / totalStudent;
         System.out.println("전체평균: " + totalAvg);
     }
-
 }
+
+/*
+합과 평균구하기
+int sum = 0;
+int count = 0; // 배열 원소의 갯수
+
+for (int i = 0; i< array.length ; i++) {
+     for (int j= 0; j < array[i].length ; j++) {
+     sum += array[i][j]
+     cotunt++ //배열의 개수만큼 카운트
+          }
+     }
+ */

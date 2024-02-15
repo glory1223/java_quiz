@@ -13,3 +13,9 @@ public class Quiz08 {
         System.out.println("최댓갑: " + max);
     }
 }
+
+/*
+for(int arr : array) {
+    if (max < arr) max = arr;
+}
+ */
