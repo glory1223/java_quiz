@@ -109,7 +109,7 @@ public class Customer {
         int howManyPoint = scanner.nextInt();
 
         //휴대폰번호찾기 만들자
-        Customer customer = searchNumber(number); //휴대폰번호 객체
+        Customer customer = searchNumber(number); //휴대폰번호 고객객체
 
         if(customer == null) {
             System.out.println("존재하지 않는 고객정보입니다.");
@@ -153,7 +153,7 @@ public class Customer {
 
 
 
-    //휴대폰번호 객체 반환 메소드
+    //휴대폰번호를 가진 고객 객체 반환 메소드
     static Customer searchNumber (String number) {
         Customer customer = null;
 
