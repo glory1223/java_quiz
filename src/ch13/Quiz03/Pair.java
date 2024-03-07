@@ -1,0 +1,12 @@
+package ch13.Quiz03;
+
+public class Pair<K, V> {
+    private K key; //Stirng
+    private V value; //integer
+    public Pair(K key, V value) {
+        this.key = key;
+        this.value = value;
+    }
+    public K getKey() { return key; }
+    public V getValue() { return value; } //나이리턴
+}

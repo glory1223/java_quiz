@@ -10,4 +10,15 @@ public class Quiz10 {
 ➍ getResource ( ) 메소드는 프로젝트 경로를 기준으로 리소스의 URL을 리턴한다. -> getResource()메소드는 절대경로 기준으로 URL을 리턴한다.
 
      */
+
+    /*
+    //class객체를 생성하는 3가지 방법
+        // 첫번째 방법
+        Class clazz = Car.class;
+        //두번째 방법
+        Class clazz2 = Class.forName("ch12.sec11.exam01.Car");
+        //세번째 방법
+        Car car = new Car();
+        Class clazz3 = car.getClass();
+     */
 }

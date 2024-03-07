@@ -6,7 +6,7 @@ public class Quiz08 {
   ➊ Math.ceil (5.3)  6.0
   ➋ Math.floor (5.3)  5.0
   ➌ Math.max(5.3, 2.5)  5.3
-  ➍ Math.round(5.7)  6.0 -> 왜인지 모름
+  ➍ Math.round(5.7)  6.0 -> round를 사용하면 실수를 주는것이아닌 정수를준다.`
 
      */
 }
